@@ -15,7 +15,11 @@ export function rainbow(str) {
   const startIdx = Math.floor(Math.random() * len);
   console.log(
     chars
-      .map((char, idx) => chalk[bgMethods[(idx + startIdx) % len]](chalk.black(char)))
+      .map((char, idx) =>
+        /\s/.test(char)
+          ? ' '
+          : chalk[bgMethods[(idx + startIdx) % len]](chalk.black(char))
+      )
       .join('')
   );
 }
