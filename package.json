@@ -11,5 +11,18 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^5.3.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strawhat-x/hello-world.git"
+  },
+  "keywords": [
+    "hello world",
+    "rainbow log"
+  ],
+  "bugs": {
+    "url": "https://github.com/strawhat-x/hello-world/issues"
+  },
+  "homepage": "https://github.com/strawhat-x/hello-world#readme"
 }
