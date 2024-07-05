@@ -1,6 +1,6 @@
 # Hello World
 
-THIS IS WHERE DREAM BEGINS!
+THIS IS WHERE DREAMS BEGIN!
 
 ## Installation
 
@@ -15,6 +15,10 @@ import { rainbow } from '@strawhatx/hello-world';
 
 rainbow('HELLO WORLD!');
 ```
+
+### output
+
+![HELLO WORLD!](./assets/hello-world.png)
 
 ## License
 
